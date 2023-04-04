@@ -1,0 +1,36 @@
+{
+  "name": "ac-ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "register:components": "vitepress-rc",
+    "docs:serve": "vitepress serve docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/plugin-proposal-decorators": "^7.19.3",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/register": "^7.18.9",
+    "@rollup/plugin-babel": "^6.0.3",
+    "babel-loader": "^9.1.2",
+    "babel-preset-env": "^1.7.0",
+    "cross-env": "^7.0.3",
+    "prettier": "^2.7.1",
+    "vitepress": "^1.0.0-alpha.30",
+    "vitepress-demoblock": "^1.0.4",
+    "vitepress-theme-demoblock": "^2.0.1"
+  },
+  "dependencies": {
+    "achang-ui": "^0.1.5",
+    "less": "^4.1.3"
+  },
+  "browser": {
+    "achang-ui": "./dist/index.esm.js"
+  }
+}

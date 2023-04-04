@@ -1,0 +1,23 @@
+{
+  "hash": "85e038ef",
+  "browserHash": "c8188094",
+  "optimized": {
+    "vue": {
+      "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "605cbb8f",
+      "needsInterop": false
+    },
+    "achang-ui": {
+      "src": "../../../../node_modules/achang-ui/dist/index.esm.js",
+      "file": "achang-ui.js",
+      "fileHash": "c2780ce2",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-F3X4WNOX": {
+      "file": "chunk-F3X4WNOX.js"
+    }
+  }
+}
